@@ -124,9 +124,10 @@ a, button {
     text-align: center;
   }
   .card img{
-      max-width: 300px;
-      max-height: 300px;
+      width: 300px;
+      height: 300px;
       margin: 0 auto;
+      border-radius: 150px;
   }
   .jobdesc {
     background: linear-gradient(91.29deg, #36D1DC 0%, #5B86E5 100%),

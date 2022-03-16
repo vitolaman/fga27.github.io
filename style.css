@@ -117,7 +117,7 @@ a, button {
   .card {
     background: #20212C;
     border-radius: 25px;
-    padding: 10px;  
+    padding: 30px;  
     max-width: 480px;
     min-height: 600px;
     display: flex;

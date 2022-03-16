@@ -75,6 +75,7 @@ a, button {
   .bg {
     background: #5B86E5;
     padding: 0 10px;
+    animation: bgwarna 2s infinite;
   }
   .gambar-kmp {
       padding-left: 100px;
@@ -105,6 +106,10 @@ a, button {
     min-width: 360px;
     max-width: 500px;
     margin: 10px 50px;
+    transition: all .2s ease-in-out;
+  }
+  .card-border:hover {
+     transform: scale(1.1); 
   }
   .card {
     background: #20212C;
@@ -156,6 +161,7 @@ a, button {
 footer{
     color: #fff;
     border-top: 10px solid #5B86E5; 
+    animation: borderwarna 2s infinite;
     background: #20212C;
     margin-top: 100px;
     min-height: 200px;
@@ -166,6 +172,17 @@ footer{
 }
 .footer-right {
     margin-left: 100px;
+}
+@keyframes bgwarna {
+  0% {background-color: #5B86E5;}
+  50% {background-color: #36D1DC;}
+  100% {background-color: #5B86E5;}
+}
+
+@keyframes borderwarna {
+  0% {border-top: 10px solid #5B86E5; }
+  50% {border-top: 10px solid #36D1DC; }
+  100% {border-top: 10px solid #5B86E5; }
 }
 
 @media only screen and (max-width: 670px) {
